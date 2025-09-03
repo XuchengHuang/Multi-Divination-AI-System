@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 本地数据库
+*.db
+*.sqlite
+*.sqlite3
+divination.db
+
+# 环境变量和配置
+.env
+.env.local
+.env.production
+
+# Git
+.git/
+.gitignore
+
+# 文档
+README.md
+docs/
+
+# 测试
+tests/
+test_*
+
+# 日志
+*.log
+logs/
+
+# 缓存
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore

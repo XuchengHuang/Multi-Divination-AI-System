@@ -1,0 +1,40 @@
+# FastAPI 核心依赖
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# 数据库相关
+sqlalchemy==2.0.23
+alembic==1.12.1
+
+# 数据验证和配置
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# 环境变量和配置
+python-dotenv==1.0.0
+
+# 文件上传和表单处理
+python-multipart==0.0.6
+
+# PostgreSQL 数据库驱动 (生产环境)
+psycopg2-binary==2.9.9
+
+# 安全相关（如果需要用户认证）
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# HTTP 客户端（如果需要调用外部API）
+httpx==0.25.2
+requests==2.31.0
+
+# 日期时间处理（如果需要）
+python-dateutil==2.8.2
+
+# JSON 处理增强（如果需要）
+orjson==3.9.10
+
+# 开发和测试工具（可选）
+# pytest==7.4.3
+# pytest-asyncio==0.21.1
+# black==23.11.0
+# isort==5.12.0

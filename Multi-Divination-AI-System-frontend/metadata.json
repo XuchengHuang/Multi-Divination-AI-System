@@ -1,0 +1,8 @@
+{
+  "name": "多元占卜AI系統 (Multi-Divination AI System)",
+  "description": "An AI-powered divination app offering insights from multiple esoteric disciplines like Numerology, Palmistry, Astrology, MBTI, and Tarot. It provides individual analyses and an integrated comprehensive report.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "prompt": ""
+}

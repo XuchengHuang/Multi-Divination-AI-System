@@ -1,0 +1,190 @@
+# ===========================================
+# Python 后端相关
+# ===========================================
+
+# Python 编译文件和缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 数据库文件（SQLite）
+*.db
+*.sqlite
+*.sqlite3
+divination.db
+
+# Python 日志
+*.log
+
+# Python 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===========================================
+# Node.js 前端相关  
+# ===========================================
+
+# 依赖包目录
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 包管理器锁定文件（保留package-lock.json，删除其他）
+yarn.lock
+pnpm-lock.yaml
+
+# 前端构建输出
+/frontend/dist/
+/frontend/build/
+
+# Vite 缓存
+.vite/
+
+# TypeScript 编译输出
+*.tsbuildinfo
+
+# ===========================================
+# 环境变量和配置文件
+# ===========================================
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 配置文件中的敏感信息
+config.local.*
+
+# ===========================================
+# 开发工具和IDE
+# ===========================================
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# PyCharm/IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ===========================================
+# 操作系统文件
+# ===========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+
+# ===========================================
+# 日志和临时文件
+# ===========================================
+
+# 应用日志
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# 临时文件
+tmp/
+temp/
+.tmp/
+
+# ===========================================
+# Docker 相关
+# ===========================================
+
+# Docker Compose 覆盖文件  
+docker-compose.override.yml
+
+# ===========================================
+# 上传和用户生成内容
+# ===========================================
+
+# 用户上传文件
+uploads/
+static/uploads/
+media/
+
+# ===========================================
+# 测试覆盖率
+# ===========================================
+
+# JavaScript 测试覆盖率
+coverage/
+*.lcov
+.nyc_output
+
+# Python 测试覆盖率
+htmlcov/
+.coverage
+.coverage.*
+
+# ===========================================
+# 缓存目录
+# ===========================================
+
+# Node 相关缓存
+.npm
+.eslintcache
+
+# Python 相关缓存
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ===========================================
+# 构建和分发
+# ===========================================
+
+# Python 打包
+build/
+dist/
+*.egg-info/
+
+# JavaScript/TypeScript 构建
+/frontend/dist/
+/frontend/build/
+
+# ===========================================
+# 特定于你项目的文件
+# ===========================================
+
+# 如果有API密钥配置文件
+api_keys.json
+secrets.json
+
+# 如果有本地测试数据
+test_data/
+sample_data/
