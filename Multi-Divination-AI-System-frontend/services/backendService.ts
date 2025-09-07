@@ -3,7 +3,7 @@
 // ⛳ 如果你已经用 Vite 代理了 /api -> http://localhost:8000，
 //    这里可以把 BACKEND_API 改成 '/api'。
 //    目前为了直连后端，我先保留完整地址：
-const BACKEND_API = 'https://divination-backend-1078607865495.us-central1.run.app';
+const BACKEND_API = process.env.BACKEND_URL;
 
 export interface BatchReadingData {
   user_name: string;

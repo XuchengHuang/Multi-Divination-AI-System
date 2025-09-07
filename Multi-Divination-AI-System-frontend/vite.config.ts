@@ -6,7 +6,8 @@ export default defineConfig(({ mode }) => {
     return {
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
-        'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
+        'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
+        'process.env.BACKEND_URL': JSON.stringify(env.BACKEND_URL)
       },
       resolve: {
         alias: {
@@ -18,7 +19,7 @@ export default defineConfig(({ mode }) => {
       server: {
         proxy: {
           '/api': {
-            target: 'https://divination-backend-1078607865495.us-central1.run.app',
+            target: env.BACKEND_URL,
             changeOrigin: true,
             // 如果你的后端没有 /api 前缀，才需要打开这一行重写：
             rewrite: (p) => p.replace(/^\/api/, '')
